@@ -1,0 +1,257 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+.body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5%;
+  width: 100%;
+  
+}
+.nav_bar {
+  letter-spacing: 4px;
+  background-color: white;
+  color: black;
+  /* padding: 8px 16px; */
+}
+.Parents {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 16px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  z-index: 1;
+  background-color: white;
+}
+.nav1 {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  padding: 8px 16px;
+}
+.nav1:hover {
+  background-color: #ccc !important;
+}
+.nav2 {
+  text-decoration: none;
+  color: black;
+}
+.img {
+  position: relative;
+  width: auto;
+  margin: auto;
+}
+.br1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 52%;
+  left: 46.5%;
+  position: absolute;
+  margin-top: 16px;
+}
+.br1child,
+.br1child1 {
+  transform: translate(-100px, -59px);
+  color: white;
+  font-size: 36px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 6px;
+  vertical-align: middle;
+  letter-spacing: 4px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+/* .br1child1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.br1child {
+  background-color: black;
+  opacity: 75%;
+  padding: 8px 16px;
+}
+.bodyparents {
+  max-width: 1564px;
+  margin: auto;
+  padding: 8px 16px;
+}
+.font1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0px;
+  padding: 16px 0px;
+  border-bottom: 1px solid #f1f1f1 !important;
+}
+
+.main_layer,
+.rdpart {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+ 
+.pic_layer1,
+.child1 {
+  width: 24.999%;
+  padding: 7px 7px;
+}
+
+.pic1 {
+  position: relative;
+
+  /* width: 20%;   */
+}
+.writeup {
+  position: absolute;
+  display: inline-block;
+  /* z-index: 1; */
+  background-color: black;
+  color: white;
+  font-size: 15px !important;
+  font-weight: 400;
+  font-family: Verdana, sans-serif;
+  padding: 10.5px 16px;
+}
+.img1 {
+  width: 100%;
+  /* padding: 0 8px; */
+  /* margin: 0px 0px 16px; */
+}
+.bord {
+  padding: 32px 16px;
+}
+.mainabout {
+  padding: 32px 16px;
+}
+.pragraph {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  margin: 15px 0px;
+  /* padding: 0.01em 16px; */
+  text-align: justify;
+}
+.rdpart {
+  filter: grayscale(75%);
+  padding: 0 8px;
+}
+.child1 {
+  width: 24.999;
+}
+.layer4 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  margin: 15px 0px;
+  opacity: 0.6;
+}
+.john {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.Phasellus {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.btn {
+  font-size: 15px;
+  margin: 15px 0px;
+  font-family: Verdana, sans-serif;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 8px 16px;
+}
+.btn:hover {
+  background-color: #cccccc;
+  color: black;
+  cursor: pointer;
+}
+.input {
+  display: block;
+  grid-row: inherit;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc !important;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.btn1 {
+  font: inherit;
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  padding: 8px 16px;
+  margin: 16px 0px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.btn1:hover{
+  cursor: pointer ;  
+  background-color: #ccc!important;
+  color: black;
+}
+.contparents{
+  padding: 32px 16px;
+}
+.cont{
+  padding: 16px 0px;
+}
+.fom{
+  padding: 8px;
+}
+.footer{
+  background-color: black;  
+  color: white;
+  padding: 16px 0px; 
+  text-align: center;
+
+}
+.power{
+  margin: 15px;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+   color: white;
+  color: inherit;
+
+}
+.w3:hover{
+  color: #4CAF50!important;
+}
+.w3{
+  color:white;
+}
+.imgbottom{
+  width: 100%;
+  padding: 0px 16px;
+}
+
+
+@media only screen and (max-width:800px)
+{
+  .Parents  {flex-direction: column}
+
+  .nav_bar1, .br1child1  {display: none;}
+     .img  {width: 100%;}
+     .br1child { margin-top: 28px;
+      margin-left: 50px}
+      .main_layer{ flex-direction: column;}
+      .pic_layer1 { flex-direction: column;
+        width: 100%;}
+        .rdpart { flex-direction: column;}
+        .child1{ width: 100%;}
+    
+}
+
+@media only screen and (max-width:800px)
